@@ -1,0 +1,144 @@
+:root{
+    --mainColor:#301728FF;
+    --textcolor: rgba(254, 254, 254, 0.558);
+}
+.useMainColor{
+    background-color: var(--mainColor);
+}
+.mainTextStyle{
+    color: var(--textcolor);
+    font-family:'Questrial', helvetica, arial, sans-serif ;
+    font-weight: normal;
+    text-align: center;
+    text-shadow: 0 0 10px rgb(37, 47, 54);
+}
+.largerText{
+    font-size: 50px;
+    word-spacing: 4px;
+    padding-bottom: 10px;
+    letter-spacing: 2px;
+    font-weight: lighter;
+    text-transform:lowercase ;
+}
+.paraText{
+    font-size: 20px;
+    text-transform: uppercase;
+    word-spacing: 6px;
+    letter-spacing: 2px;   
+    padding-top: 5px;
+}
+.highlightRed{
+    color: #FC4349;
+}
+.highlightBlue{
+    color: #6DBCDB;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+div{
+    margin: 0px;
+    padding: 0px;
+}
+/* main section */
+#main-section{
+        margin-top: 90px;  
+}
+#hello-section{
+    border-top: 1px solid var(--textcolor);
+}
+#profilePic{
+    margin-top: 100px;
+    border-left: 1px solid var(--textcolor);
+    padding-top: 10px;
+}
+.pictext{
+    padding-top: 10px;
+    font-size: 20px;
+    text-align: right;
+    margin-bottom: 0px;
+}
+
+.about{
+    margin: 60px;
+    background-color:inherit !important;
+    text-align: left !important;
+}
+.aboutText h1{
+    border-top: 1px solid var(--textcolor);
+    display: inline;
+    text-transform: uppercase;
+    padding-top: 10px;
+    font-size: 40px !important;
+    
+}
+.aboutText p{
+    margin-top: 35px;
+    font-weight: 100 !important;
+    font-size: 16px; 
+    word-spacing: 2px;  
+}
+
+
+
+
+/*.jumbotron h1 {
+	border-top: 1px solid #324659;
+	color: #fff;
+	
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-bottom: 1.5em;
+	padding-top: 1em;
+	text-shadow: 0 0 10px #1D2A36;
+	text-transform: uppercase;
+}*/         
+
+.jumbotron p {
+	line-height: 1.7;
+}
+
+.quote-one{
+    background-color: #500C44 ;
+    font-size: 1em;
+    padding: 6em 2em;
+    color:rgba(254, 254, 254, 0.612) ;
+}
+.quote-one p{
+    width:100%;
+    margin-top: 30px;
+    font-size: 1.2em;
+    word-spacing: 2px;
+}
+.quote-one hr{
+    background-color:rgba(254, 254, 254, 0.612);   
+}
+
+
+
+/* Tags
+--------------------------------------------------------*/
+.tags{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+ul{
+    list-style: none;
+}
+
+
+ul.tags li {
+	display: inline;
+	font-size: 1em;
+	font-family: Lato, Arial, Helvetica, sans-serif;
+    padding: 4px 11px;
+    margin-right: 10px;
+    text-shadow: 0 0 3px #111C26;
+    list-style: none;
+}
+
+.tags i{
+    padding-right:5px ;
+}
